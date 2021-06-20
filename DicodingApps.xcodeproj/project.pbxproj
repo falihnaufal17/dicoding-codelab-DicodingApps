@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8443BF3B267C95F9006DFB74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443BF3A267C95F9006DFB74 /* DetailViewController.swift */; };
+		8443BF3F267C9649006DFB74 /* AcademiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443BF3E267C9649006DFB74 /* AcademiesViewController.swift */; };
+		8443BF42267C9661006DFB74 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443BF41267C9661006DFB74 /* ChallengesViewController.swift */; };
+		8443BF45267C96CC006DFB74 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443BF44267C96CC006DFB74 /* ProfileViewController.swift */; };
 		84AE44E3267A492C0052182D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE44E2267A492C0052182D /* AppDelegate.swift */; };
 		84AE44E5267A492C0052182D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE44E4267A492C0052182D /* SceneDelegate.swift */; };
 		84AE44E7267A492C0052182D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE44E6267A492C0052182D /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8443BF3A267C95F9006DFB74 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8443BF3E267C9649006DFB74 /* AcademiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiesViewController.swift; sourceTree = "<group>"; };
+		8443BF41267C9661006DFB74 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
+		8443BF44267C96CC006DFB74 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		84AE44DF267A492C0052182D /* DicodingApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicodingApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AE44E2267A492C0052182D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AE44E4267A492C0052182D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8443BF3D267C961F006DFB74 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84AE44E6267A492C0052182D /* ViewController.swift */,
+				8443BF3A267C95F9006DFB74 /* DetailViewController.swift */,
+				8443BF3E267C9649006DFB74 /* AcademiesViewController.swift */,
+				8443BF41267C9661006DFB74 /* ChallengesViewController.swift */,
+				8443BF44267C96CC006DFB74 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		84AE44D6267A492C0052182D = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +76,9 @@
 		84AE44E1267A492C0052182D /* DicodingApps */ = {
 			isa = PBXGroup;
 			children = (
+				8443BF3D267C961F006DFB74 /* Controllers */,
 				84AE44E2267A492C0052182D /* AppDelegate.swift */,
 				84AE44E4267A492C0052182D /* SceneDelegate.swift */,
-				84AE44E6267A492C0052182D /* ViewController.swift */,
 				84AE44E8267A492C0052182D /* Main.storyboard */,
 				84AE44EB267A49340052182D /* Assets.xcassets */,
 				84AE44ED267A49340052182D /* LaunchScreen.storyboard */,
@@ -139,7 +159,11 @@
 			files = (
 				84AE44E7267A492C0052182D /* ViewController.swift in Sources */,
 				84AE44E3267A492C0052182D /* AppDelegate.swift in Sources */,
+				8443BF3F267C9649006DFB74 /* AcademiesViewController.swift in Sources */,
 				84AE44E5267A492C0052182D /* SceneDelegate.swift in Sources */,
+				8443BF45267C96CC006DFB74 /* ProfileViewController.swift in Sources */,
+				8443BF42267C9661006DFB74 /* ChallengesViewController.swift in Sources */,
+				8443BF3B267C95F9006DFB74 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
